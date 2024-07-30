@@ -11,15 +11,9 @@ interface Props {
 
 const Main: React.FC<Props> = ({ theme }) => {
   const [markdownContent, setMarkdownContent] = useState<string>(`
-    # H1
-    ## H2
-    ### H3
-    #### H4
-    ##### H5
+  <h1 style="color:blue;">A Blue Heading</h1>
 
-__bold__
-**bold**
-_italic_    
+<p style="color:red;">A red paragraph.</p>  
   `);
 
   return (
