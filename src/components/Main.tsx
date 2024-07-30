@@ -13,7 +13,7 @@ const Main: React.FC<Props> = ({ theme }) => {
   const [markdownContent, setMarkdownContent] = useState<string>(`
   <h1 style="color:blue;">Hello World!</h1>
 
-<p style="color:red;">**You can markdown your HTML and CSS files here with a live preview**</p>  
+<p style="color:red;"><b>You can markdown your HTML and CSS files here with a live preview</b></p>  
   `);
 
   return (
